@@ -4,11 +4,14 @@
         <em:id>proxymob@guardianproject.info</em:id>
         <em:type>2</em:type>
         <em:name>Proxy Mobile</em:name>
-        <em:version>0.0.10</em:version>
+        <em:version>0.0.10.alexs77.2</em:version>
         <em:bootstrap>false</em:bootstrap>
         <em:description>Simple Proxy Settings for HTTP and SOCKS</em:description>
         <em:creator>The Guardian Project</em:creator>
-	<em:optionsURL>chrome://proxymob/content/options.xul</em:optionsURL>
+        <em:homepageURL>https://guardianproject.info/apps/proxymob/</em:homepageURL>
+        <em:contributor>Alexander Skwar</em:contributor>
+        <em:optionsURL>chrome://proxymob/content/options.xul</em:optionsURL>
+ 
         <!-- Mobile Native -->
         <em:targetApplication>
             <Description>
@@ -17,13 +20,14 @@
                 <em:maxVersion>15.*</em:maxVersion>
             </Description>
         </em:targetApplication>
-<em:targetApplication>
-  <!-- Fennec -->
-  <Description>
-    <em:id>{a23983c0-fd0e-11dc-95ff-0800200c9a66}</em:id>
-    <em:minVersion>1.1</em:minVersion>
-    <em:maxVersion>15.0a1</em:maxVersion>
-  </Description>
-</em:targetApplication>
+
+        <!-- Fennec -->
+        <em:targetApplication>
+            <Description>
+                <em:id>{a23983c0-fd0e-11dc-95ff-0800200c9a66}</em:id>
+                <em:minVersion>1.1</em:minVersion>
+                <em:maxVersion>15.0a1</em:maxVersion>
+            </Description>
+        </em:targetApplication>
     </Description>
 </RDF>

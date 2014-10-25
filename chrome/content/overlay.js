@@ -16,8 +16,8 @@
 //this whole code exists because we can't do integer settings in the options.xul file. lame.
 
 var proxymob = {
-	prefs: null,
-        prefs2: null,
+    prefs: null,
+    prefs2: null,
 	
 	// Initialize the extension
 	
