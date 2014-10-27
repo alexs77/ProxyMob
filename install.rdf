@@ -4,7 +4,7 @@
         <em:id>proxymob@guardianproject.info</em:id>
         <em:type>2</em:type>
         <em:name>Proxy Mobile</em:name>
-        <em:version>0.0.10.alexs77.2</em:version>
+        <em:version>0.0.10.alexs77.3</em:version>
         <em:bootstrap>false</em:bootstrap>
         <em:description>Simple Proxy Settings for HTTP and SOCKS</em:description>
         <em:creator>The Guardian Project</em:creator>
